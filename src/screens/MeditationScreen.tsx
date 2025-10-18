@@ -2,6 +2,7 @@ import { StyleSheet, Text, View } from 'react-native'
 import React from 'react'
 import { s, vs } from 'react-native-size-matters';
 import TopTabs from '../components/TopTabs';
+import MeditationCard from '../components/MeditationCard';
 
 const MeditationScreen = () => {
   return (
@@ -10,6 +11,7 @@ const MeditationScreen = () => {
       <Text style={{color:"#2C2016",fontSize:s(14),marginBottom:vs(16)}}>Lorem Ipsum is simply dummy text</Text>
 
       <TopTabs/>
+      <MeditationCard/>
     </View>
   )
 }

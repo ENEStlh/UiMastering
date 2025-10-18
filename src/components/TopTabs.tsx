@@ -18,6 +18,7 @@ const TopTabs = () => {
           <TouchableOpacity
             style={[styles.Tabs, IsActive && { backgroundColor: ACTİVE_BG }]}
             onPress={() => SetActiveTab(Tabname)}
+            key={Tabname}
           >
             <Text style={IsActive ? styles.activetext : styles.inactivetext}>
               {Tabname}
