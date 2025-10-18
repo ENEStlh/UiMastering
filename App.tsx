@@ -1,13 +1,14 @@
 
 import { StyleSheet, Text, View } from 'react-native';
-import ContactUsScreen from './src/screens/ContactUsScreen';
+
+import MeditationScreen from './src/screens/MeditationScreen';
 
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <ContactUsScreen/>
+      <MeditationScreen/>
      
     </View>
   );

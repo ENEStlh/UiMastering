@@ -38,7 +38,7 @@ const styles = StyleSheet.create({
     borderRadius: s(14),
     paddingHorizontal: s(18),
     paddingVertical: vs(15),
-    marginTop: vs(22),
+    marginTop: vs(25),
   },
 
   title: {
@@ -50,7 +50,7 @@ const styles = StyleSheet.create({
   contact: {
     fontSize: s(22),
     fontWeight: "bold",
-    marginTop: vs(20),
+    marginTop: vs(30),
     marginStart: s(19),
   },
 });
