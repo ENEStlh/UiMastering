@@ -1,12 +1,12 @@
-import { View, Text, StyleSheet, TouchableOpacity } from "react-native";
+import { StyleSheet, Text, TouchableOpacity } from "react-native";
 import React from "react";
-import Ionicons from "@expo/vector-icons/Ionicons";
 import { s } from "react-native-size-matters";
+import Entypo from "@expo/vector-icons/Entypo";
 
 const BackButton = () => {
   return (
     <TouchableOpacity style={styles.container}>
-      <Ionicons name="chevron-back" size={24} color="black" />
+      <Entypo name="chevron-left" size={s(16)} color="black" />
     </TouchableOpacity>
   );
 };

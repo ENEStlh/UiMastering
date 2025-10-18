@@ -1,30 +1,28 @@
 import * as React from "react";
-import Svg, { Rect, Defs, Pattern, Use, Image } from "react-native-svg";
-const SunImage = (props) => (
+import Svg, { Rect, Defs, Pattern, Use, Image, SvgProps } from "react-native-svg";
+const SunImage = (props: SvgProps) => (
   <Svg
     width={197}
     height={200}
     viewBox="0 0 197 200"
     fill="none"
-    xmlns="http://www.w3.org/2000/svg"
-    xmlnsXlink="http://www.w3.org/1999/xlink"
     {...props}
   >
-    <Rect width={197} height={200} fill="url(#pattern0_1_555)" />
+    <Rect width={197} height={200} fill="url(#pattern0_4_210)" />
     <Defs>
       <Pattern
-        id="pattern0_1_555"
+        id="pattern0_4_210"
         patternContentUnits="objectBoundingBox"
         width={1}
         height={1}
       >
         <Use
-          xlinkHref="#image0_1_555"
+          xlinkHref="#image0_4_210"
           transform="scale(0.00102564 0.00101112)"
         />
       </Pattern>
       <Image
-        id="image0_1_555"
+        id="image0_4_210"
         width={1980}
         height={1968}
         preserveAspectRatio="none"
